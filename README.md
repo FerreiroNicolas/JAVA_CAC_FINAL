@@ -2,7 +2,7 @@
 Trabajo práctico final a entregar para el curso de Java de Codo a Codo.
 
 # CODO A CODO - FULL STACK JAVA
-## Comisión 23507
+## Comisión 23106
 
 ### TP1 - BACKEND
 
