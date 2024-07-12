@@ -6,7 +6,11 @@ Trabajo práctico final a entregar para el curso de Java de Codo a Codo.
 
 ### TP1 - BACKEND
 
-### Links a la página del proyecto
+### Links a la parte del front del proyecto
+
+#### Repositorio a Git-Hub del frontend asociado a todo lo que hecho
+
+[Repositorio de frontend](https://github.com/FerreiroNicolas/TP1-front-Java-CAC?tab=readme-ov-file)
 
 # Proyecto: CAC-MOVIE
 
@@ -33,7 +37,3 @@ Es un sitio que cuenta con las siguientes secciones:
 ### Base de Datos
 - **MariaDB**: Utilizada como sistema de gestión de bases de datos relacional, proporcionando una solución eficiente y segura para el almacenamiento de datos.
 - **DBeaver**: Herramienta utilizada para gestionar y administrar la base de datos, facilitando la visualización y manipulación de datos.
-
-#### Repositorio a Git-Hub del frontend asociado a todo lo que hecho
-
-[Repositorio de frontend](https://github.com/FerreiroNicolas/TP1-front-Java-CAC?tab=readme-ov-file)
