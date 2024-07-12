@@ -13,7 +13,7 @@ Trabajo práctico final a entregar para el curso de Java de Codo a Codo.
 [Repositorio de frontend](https://github.com/FerreiroNicolas/TP1-front-Java-CAC?tab=readme-ov-file)
 
 ### Otros Links relacionados
-[Video Youtube](https://www.youtube.com/watch?v=QGtxNwGIyQc)
+[Youtube](https://www.youtube.com/watch?v=QGtxNwGIyQc)
 [Drive](https://drive.google.com/drive/folders/1rttTpFnTgfdAtv0NnfVGzyG54J5dCaXU?usp=sharing)
 
 # Proyecto: CAC-MOVIE
