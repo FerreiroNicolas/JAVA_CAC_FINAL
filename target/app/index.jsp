@@ -8,6 +8,5 @@
 <body>
     <h1>Esto pertenece a la api</h1>
     <h1>Esto pertenece a la api</h1>
-    <h1>Esto pertenece a la api</h1>
 </body>
 </html>

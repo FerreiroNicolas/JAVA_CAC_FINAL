@@ -5,41 +5,37 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    private Connection connection;  // Objeto Connection para manejar la conexión a la base de datos
-
-    // Constructor de la clase Conexion
+    private Connection connection;  
     public Conexion() {
         try {
-            // Paso 1: Cargar dinámicamente el driver de MySQL
-            Class.forName("org.mariadb.jdbc.Driver");  // Cargar el driver de MariaDB
+            
+            Class.forName("org.mariadb.jdbc.Driver");  
 
-            // Paso 2: Establecer la conexión con la base de datos 'peliculas_cac_java' en localhost
+            
             this.connection = DriverManager.getConnection(
-                "jdbc:mariadb://localhost:3306/peliculas_cac_java",  // URL de conexión JDBC para MySQL
-                "nicoferreiro",  // Nombre de usuario de la base de datos (cambia según tu configuración)
-                "Gatoperro1#"  // Contraseña de la base de datos (cambia según tu configuración)
+                "jdbc:mariadb://localhost:3308/peliculas_java",  // URL de conexión JDBC para MySQL
+                "nicoferreiro",  
+                "Gatoperro1#"  
             );
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();  // Imprimir el error en caso de no encontrar el driver
+            e.printStackTrace(); 
         } catch (SQLException e) {
-            e.printStackTrace();  // Imprimir el error en caso de problemas con la conexión a la base de datos
+            e.printStackTrace();  
         }
     }
 
-    // Método para obtener la conexión GETTER
     public Connection getConnection() {
-        return connection;  // Devuelve el objeto Connection establecido
+        return connection;  
     }
 
-    // Método para cerrar la conexión
     public void close() {
         try {
-            // Verificar si la conexión no es nula y está abierta, entonces cerrarla
+
             if (connection != null && !connection.isClosed()) {
-                connection.close();  // Cierra la conexión a la base de datos
+                connection.close();  
             }
         } catch (SQLException e) {
-            e.printStackTrace();  // Imprimir el error en caso de problemas al cerrar la conexión
+            e.printStackTrace();  
         }
     }
 }
